@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static Model.Gymer;
-using static Model.Trainingp;
+using static Model.TrainingProgram;
 
 namespace ViewModel
 {
@@ -49,23 +49,23 @@ namespace ViewModel
                 return null;
             return list[0];
         }
-        public int Insert(Devices devices)
+        public int Insert(Gymer gymer)
         {
             command.CommandText = "INSERT INTO tblGymer (weight, height, myCoach) VALUES(@weight, @height, @myCoach)";
-            LoadParameters(devices);
+            LoadParameters(gymer);
             return ExecuteCRUD();
         }
 
-        public int Update(Devices devices)
+        public int Update(Gymer gymer)
         {
             command.CommandText = "UPDATE tblGymer SET myCoach = @myCoach, weight = @weight, height = @height WHERE  (tblGymer.id = 1)";
-            LoadParameters(devices);
+            LoadParameters(gymer);
             return ExecuteCRUD();
         }
-        public int DeleteByID(Devices devices)
+        public int DeleteByID(Gymer gymer)
         {
             command.CommandText = "DELETE FROM tblGymer WHERE  (tblGymer.id = 1)";
-            LoadParameters(devices);
+            LoadParameters(gymer);
             return ExecuteCRUD();
         }
     }

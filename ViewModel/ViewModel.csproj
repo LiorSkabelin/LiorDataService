@@ -45,7 +45,7 @@
     <Compile Include="DevicesDB.cs" />
     <Compile Include="GymerBD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TrainingpDB.cs" />
+    <Compile Include="TrainingProgramDB.cs" />
     <Compile Include="UserDB.cs" />
   </ItemGroup>
   <ItemGroup>
