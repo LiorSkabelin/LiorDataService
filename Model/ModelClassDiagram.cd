@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.BaseEntity">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Devices">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DevicesList">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Gymer">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAQAAAAAAAAAACAAAAAgAAAAAAEAAAA=</HashCode>
+      <FileName>Gymer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.GymerList">
+    <Position X="16" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gymer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.TrainingProgram">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABACAAAwAAAAIAAAAAQAAAEEAAABAAAAAAAAAAA=</HashCode>
+      <FileName>TrainingProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.TrainingpList">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrainingProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.User">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Model.BaseEntity" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="2.055" />
+        <Point X="10.25" Y="3.875" />
+        <Point X="10.062" Y="3.875" />
+        <Point X="10.062" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAEAAAChAAACoAAAAgAAAAAAAAAACQAAAAkgAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.UserList">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
